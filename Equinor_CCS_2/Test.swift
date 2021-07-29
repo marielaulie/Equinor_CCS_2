@@ -12,6 +12,8 @@ import UIKit
 
 class Test: UIViewController {
 
+    @IBOutlet weak var redImage: UIImageView!
+    
     @IBAction func handlePan(_ recognizer: UIPanGestureRecognizer){
         guard let recognizerView = recognizer.view else {
             return
@@ -20,8 +22,13 @@ class Test: UIViewController {
         recognizerView.center.x += translation.x
         recognizerView.center.y += translation.y
         recognizer.setTranslation(.zero, in: view)
+        
+        if recognizerView.frame.intersects(redImage.frame) {
+            redImage.backgroundColor = .green
+        }
+        }
     }
 
 
-}
+
     

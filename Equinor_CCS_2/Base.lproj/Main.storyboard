@@ -78,12 +78,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pipe.png" translatesAutoresizingMaskIntoConstraints="NO" id="RE8-JA-GnO">
-                                <rect key="frame" x="420" y="341" width="240" height="128"/>
+                                <rect key="frame" x="174" y="241" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="uvL-D7-bhr" appends="YES" id="QjT-MF-KUj"/>
                                 </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0xR-Eb-vog">
+                                <rect key="frame" x="619" y="536" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94878572230000002" green="0.24022653699999999" blue="0.18167141079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -96,6 +101,9 @@
                         <viewLayoutGuide key="safeArea" id="O7e-nJ-rwp"/>
                     </view>
                     <navigationItem key="navigationItem" id="4yQ-9S-dJ8"/>
+                    <connections>
+                        <outlet property="redImage" destination="0xR-Eb-vog" id="e9J-Cd-IfG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nkg-2l-Z8M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="uvL-D7-bhr">
