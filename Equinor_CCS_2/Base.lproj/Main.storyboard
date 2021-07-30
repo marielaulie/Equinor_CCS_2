@@ -40,7 +40,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S3Q-bD-8q5" kind="show" id="t9Q-7i-Z60"/>
+                                    <segue destination="fXA-ph-bjK" kind="show" id="mmr-v2-tGr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(CCS)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idh-8Y-aJO">
@@ -183,11 +183,11 @@
             <objects>
                 <viewController id="YRM-5J-Wu7" customClass="NorthernLights" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WI7-q6-0eX">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background100-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fgL-fp-7L0">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Northern Lights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGD-pP-7U0">
                                 <rect key="frame" x="399" y="162" width="283" height="48"/>
@@ -263,11 +263,11 @@
             <objects>
                 <viewController id="tHh-iC-mf9" customClass="IntroHistorie" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0oE-PZ-UCb">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background100-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-4e-uR4">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USh-Ro-hF4">
                                 <rect key="frame" x="20" y="463" width="398" height="235"/>
@@ -355,11 +355,11 @@ Her er de tre ansatte som må fullføre testen.  
             <objects>
                 <viewController id="6az-ta-htD" customClass="Transport_1" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BTl-Gd-ckB">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bildeskip-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0DT-fm-xzo">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy2.1.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPZ-Wq-Awr">
                                 <rect key="frame" x="-131" y="391" width="568" height="419"/>
@@ -411,7 +411,7 @@ Her er de tre ansatte som må fullføre testen.  
             <objects>
                 <viewController id="BQd-Ez-XsA" customClass="Spill" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1kg-GR-a8a">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Da setter vi spillet i gang!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uL-gr-v0Q">
@@ -426,6 +426,9 @@ Her er de tre ansatte som må fullføre testen.  
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Videre"/>
+                                <connections>
+                                    <segue destination="vvW-g1-KDe" kind="show" id="O0Z-v6-UPW"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.01" translatesAutoresizingMaskIntoConstraints="NO" id="wi4-EG-HI8">
                                 <rect key="frame" x="222" y="527" width="637" height="2"/>
@@ -439,18 +442,113 @@ Her er de tre ansatte som må fullføre testen.  
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QT0-Js-kt2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3604" y="107"/>
+            <point key="canvasLocation" x="3604" y="156"/>
+        </scene>
+        <!--Spill2-->
+        <scene sceneID="zQY-Wo-gft">
+            <objects>
+                <viewController id="vvW-g1-KDe" customClass="Spill2" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8sw-QO-alO">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="MkF-7q-D0w">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="hjV-3P-aoM">
+                                <rect key="frame" x="10" y="10" width="1101" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Plp-sc-QPH">
+                                <rect key="frame" x="618" y="254" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="5FI-wu-iYk">
+                                <rect key="frame" x="593" y="72" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-ra-sje">
+                                <rect key="frame" x="618" y="170" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6y-02-pAm">
+                                <rect key="frame" x="781" y="115" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HRu-Td-aFI">
+                                <rect key="frame" x="841" y="184" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pUO-0i-Qg3">
+                                <rect key="frame" x="809" y="274" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="B6t-F0-Qy5">
+                                <rect key="frame" x="111" y="254.5" width="403" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Din oppgave vil nå være å  installere rør til tanken for  CO2 skal fanges. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vT-Wz-Pco">
+                                <rect key="frame" x="199" y="288" width="315" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hd3-Hc-f9w">
+                                <rect key="frame" x="-41" y="485" width="421" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karbonfangst er det første steget en må ta for å få lagret CO2en under bakken." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpA-q7-aUJ">
+                                <rect key="frame" x="180" y="261" width="720" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyi-2Q-Txg">
+                                <rect key="frame" x="926" y="727" width="134" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zqv-Fc-3th" kind="show" id="mZX-sF-MHi"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="k5m-SN-tJ1">
+                                <rect key="frame" x="20" y="101" width="537" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="MkF-7q-D0w" firstAttribute="top" secondItem="8sw-QO-alO" secondAttribute="top" id="2vn-ZG-PXS"/>
+                            <constraint firstItem="MkF-7q-D0w" firstAttribute="leading" secondItem="8sw-QO-alO" secondAttribute="leading" id="66n-r5-voo"/>
+                            <constraint firstAttribute="trailing" secondItem="MkF-7q-D0w" secondAttribute="trailing" id="EXn-Pz-Ob6"/>
+                            <constraint firstAttribute="bottom" secondItem="MkF-7q-D0w" secondAttribute="bottom" id="exP-4R-Plm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tOz-nt-P9D"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HKq-DI-hRQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6l-vw-tdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3605.5555555555557" y="821.48148148148141"/>
         </scene>
         <!--CCS_1-->
         <scene sceneID="qhO-Zh-fNe">
             <objects>
                 <viewController id="MmW-2e-EPg" customClass="CCS_1" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="stG-2A-mEa">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CCS.png" translatesAutoresizingMaskIntoConstraints="NO" id="M5c-XQ-oqH">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på 1 for å lære mer om fangst!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDP-m2-Go7">
                                 <rect key="frame" x="213" y="102" width="655" height="48"/>
@@ -507,11 +605,11 @@ Her er de tre ansatte som må fullføre testen.  
             <objects>
                 <viewController id="ghG-FF-8G4" customClass="Lagring" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sEg-NM-v1o">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="capture.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZpU-xE-gds">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.1.png" translatesAutoresizingMaskIntoConstraints="NO" id="anq-cA-pgj">
                                 <rect key="frame" x="-131" y="391" width="568" height="419"/>
@@ -558,518 +656,12 @@ Her er de tre ansatte som må fullføre testen.  
             </objects>
             <point key="canvasLocation" x="2831" y="6531"/>
         </scene>
-        <!--Spill2-->
-        <scene sceneID="Nqv-Kl-G8a">
-            <objects>
-                <viewController id="9LJ-OG-VOP" customClass="Spill2" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0Sf-2j-fbf">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="955-vG-FaC">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Azc-lf-nks">
-                                <rect key="frame" x="-21" y="-31" width="1101" height="922"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="q8J-EE-tPY">
-                                <rect key="frame" x="-71" y="465" width="421" height="325"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9q-wH-EFk">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5ae-2W-jXG">
-                                <rect key="frame" x="98" y="209.5" width="403" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Din oppgave vil nå være å  installere rør til tanken for  CO2 skal fanges. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af4-Y6-g0k">
-                                <rect key="frame" x="184" y="280" width="203" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="wCG-5w-9lW">
-                                <rect key="frame" x="244" y="95" width="706" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="955-vG-FaC" secondAttribute="bottom" id="9Oi-I4-nKT"/>
-                            <constraint firstAttribute="trailing" secondItem="955-vG-FaC" secondAttribute="trailing" id="ApK-wW-2oM"/>
-                            <constraint firstItem="955-vG-FaC" firstAttribute="leading" secondItem="0Sf-2j-fbf" secondAttribute="leading" id="TyS-cN-sIX"/>
-                            <constraint firstItem="955-vG-FaC" firstAttribute="top" secondItem="0Sf-2j-fbf" secondAttribute="top" id="tnr-8M-nXe"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="D43-Y7-Rk0"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Ajo-Hj-Xfb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8rq-ot-MFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3604" y="813"/>
-        </scene>
-        <!--Spill3-->
-        <scene sceneID="3sv-do-Oxq">
-            <objects>
-                <viewController id="TnY-S0-MAZ" customClass="Spill3" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vR8-nY-O5h">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="md7-d4-1AR">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9F-CC-Y93">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Etk-9d-8dK" kind="show" id="UE2-lP-pzr"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nå kommer to quiz spørsmål om fangst, om du ikke helt  forstår hva du skal gjøre så trykk på &quot;hint&quot;." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Up4-ME-zOr">
-                                <rect key="frame" x="91" y="148" width="884" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="md7-d4-1AR" firstAttribute="leading" secondItem="vR8-nY-O5h" secondAttribute="leading" id="Prg-Sv-d9v"/>
-                            <constraint firstItem="md7-d4-1AR" firstAttribute="top" secondItem="vR8-nY-O5h" secondAttribute="top" id="cvf-4x-miG"/>
-                            <constraint firstAttribute="trailing" secondItem="md7-d4-1AR" secondAttribute="trailing" id="dSL-pP-K7w"/>
-                            <constraint firstAttribute="bottom" secondItem="md7-d4-1AR" secondAttribute="bottom" id="pgI-3y-cFo"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="CPH-06-NiI"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="x4h-5p-M2p"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mQu-BP-YW5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4116.666666666667" y="2126.6666666666665"/>
-        </scene>
-        <!--Spill4-->
-        <scene sceneID="G7g-rM-DfF">
-            <objects>
-                <viewController id="Etk-9d-8dK" customClass="Spill4" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dih-dJ-Gl8">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="En gjennomsnittlig bil slipper ut 5 tonn CO2 årlig.  Hvor mange biler tilsvarer utslippene man kan fange i prosjektet hvert år?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnQ-uG-4Xy">
-                                <rect key="frame" x="73" y="77" width="935" height="167"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEm-AL-niu">
-                                <rect key="frame" x="456" y="289" width="175" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="100 000 biler"/>
-                                <connections>
-                                    <action selector="alternativA:" destination="Etk-9d-8dK" eventType="touchUpInside" id="8Ie-y1-4ar"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Uj-Hh-C8n">
-                                <rect key="frame" x="458" y="381" width="165" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="1 million biler"/>
-                                <connections>
-                                    <action selector="alternativB:" destination="Etk-9d-8dK" eventType="touchUpInside" id="RAp-E4-7kq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYa-i2-oJy">
-                                <rect key="frame" x="436" y="477" width="209" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="10 millioner biler"/>
-                                <connections>
-                                    <action selector="alternativC:" destination="Etk-9d-8dK" eventType="touchUpInside" id="4nd-6v-CMD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2W3-hP-yJs">
-                                <rect key="frame" x="895" y="286" width="54" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Hint"/>
-                                <connections>
-                                    <action selector="hint:" destination="Etk-9d-8dK" eventType="touchUpInside" id="GKg-4p-262"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eju-DY-8CM">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UGj-gL-m4n" kind="show" id="8YG-yb-2Kt"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="KWA-Rv-Krt"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Ad7-Vc-tEi"/>
-                    <connections>
-                        <outlet property="alternativAFarge" destination="fEm-AL-niu" id="HVj-PC-ZuF"/>
-                        <outlet property="alternativBFarge" destination="9Uj-Hh-C8n" id="yJ4-mb-EM8"/>
-                        <outlet property="alternativCFarge" destination="zYa-i2-oJy" id="CUo-u1-rh5"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EDP-pH-PXD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4118.8888888888887" y="2788.8888888888887"/>
-        </scene>
-        <!--Spill5-->
-        <scene sceneID="ScX-Zb-cwb">
-            <objects>
-                <viewController id="UGj-gL-m4n" customClass="Spill5" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vsb-5b-FdJ">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på den sektoren du tror er mest egnet for CCS?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlg-Bu-feH">
-                                <rect key="frame" x="191" y="130" width="699" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UtslippEuropa.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ujI-ZB-rjH">
-                                <rect key="frame" x="327" y="264" width="469" height="357"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgv-B3-tzV">
-                                <rect key="frame" x="109" y="232" width="159" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Husholdninger"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRH-Gz-FVn">
-                                <rect key="frame" x="140" y="282" width="97" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Jordbruk"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3A5-49-7BE">
-                                <rect key="frame" x="148" y="332" width="81" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Industri"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsa-Ze-qDQ">
-                                <rect key="frame" x="148" y="384" width="59" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Avfall"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fY-kh-KzH">
-                                <rect key="frame" x="126" y="434" width="103" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Transport"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpq-Ee-7dd">
-                                <rect key="frame" x="899" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UNw-YY-fT7" kind="show" id="1A9-CU-ItR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mue-Yy-kPP">
-                                <rect key="frame" x="899" y="207" width="78" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Hint"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="MVF-32-9zT"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="EA3-9N-e0b"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d3J-TX-ZXW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4120" y="3448.8888888888887"/>
-        </scene>
-        <!--Spill6-->
-        <scene sceneID="njm-jN-Jb4">
-            <objects>
-                <viewController id="UNw-YY-fT7" customClass="Spill6" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Pgv-eB-wEg">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Northern Lights Prosjektet blir CO2en fraktet med ____ ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFI-nE-tIK">
-                                <rect key="frame" x="205" y="101" width="727" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gO-vV-L3l">
-                                <rect key="frame" x="177" y="299" width="48" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Skip"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIR-ue-fKk">
-                                <rect key="frame" x="182" y="349" width="38" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Rør"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ka-lP-2e1">
-                                <rect key="frame" x="186" y="553" width="30" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Bil"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-7X-3e2">
-                                <rect key="frame" x="185" y="476" width="32" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Fly"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hV9-E1-6i1">
-                                <rect key="frame" x="174" y="399" width="65" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Trailer"/>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gnO-2x-Fgl">
-                                <rect key="frame" x="448" y="356" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkI-lk-pGU">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="teC-C1-f5D" kind="show" id="KBk-ef-TdR"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="VBn-ha-HxI"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Qzr-1P-Rqr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="72G-vI-TxH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4120" y="4233"/>
-        </scene>
-        <!--Spill7-->
-        <scene sceneID="OKH-wZ-ohC">
-            <objects>
-                <viewController id="teC-C1-f5D" customClass="Spill7" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MIX-Fx-CME">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysH-zR-V1t">
-                                <rect key="frame" x="100" y="144" width="881" height="487"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Fyll inn de rette ordene:
-Northern lights er et samarbeidsprosjekt bestående av ___1____, Shell og Total. Prosjektet inngår som en del av det norske prosjektet "langskip", som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transporten, mottak og lagringen av CO2, mens selve karbonfangsten gjøres av andre.  Vi skal nå presentere verdikjeden:
-Etter at karbonet er fanget skal det fraktes det med skip til kysten ved ___2___.Her pumpes det videre i __3___  ut i Nordsjøen. På __4____ meters dyp lagres det __5___. Dette fører til ___6___ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger ___7___ grad. I fremtiden vil det komme enda flere prosjekter som Northern Lights for å lagre CO2 langt under bakken. 
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idn-4f-OoI">
-                                <rect key="frame" x="882" y="702" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="oD5-8s-LxF" kind="show" id="TIi-5e-cU0"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="nsP-Y7-9cc"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="nfE-tb-QOC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1cd-7c-KT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4125.5555555555557" y="4902.9629629629626"/>
-        </scene>
-        <!--Spill8-->
-        <scene sceneID="5b2-1Y-WZ7">
-            <objects>
-                <viewController id="oD5-8s-LxF" customClass="Spill8" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I86-Rt-IEN">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tX3-yv-x98">
-                                <rect key="frame" x="189" y="284" width="764" height="206"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Når man lagrer CO2 er det viktig å gjøre dette på et sted hvor karbonet er sikkert og trygt lagret. Dette sikres ved at man på forhånd gjør grundige geologiske undersøkelser. I Nordsjøen finnes det flere gode plasser en kan lagre CO2en. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oppgave 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoO-iK-SJU">
-                                <rect key="frame" x="422" y="153" width="237" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-w0-wxT">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="1i1-h1-u9w" kind="show" id="af8-Ya-Nqn"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="tyr-1Q-2Pn"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="dDA-dy-64F"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cps-h8-JNh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4125.5555555555557" y="5580"/>
-        </scene>
-        <!--Spill9-->
-        <scene sceneID="7eh-Cm-Ybb">
-            <objects>
-                <viewController id="1i1-h1-u9w" customClass="Spill9" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="COl-um-boO">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIj-fi-lMx">
-                                <rect key="frame" x="229" y="251" width="583" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Heldigvis har du en geolog på laget som kan hjelpe dere med undersøkelsene. Men her er noen viktige ting å huske på når du lagrer CO2. (Informasjonen er nødvendig for neste oppgave). 
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.1.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPl-SE-RPf">
-                                <rect key="frame" x="20" y="439" width="385" height="322"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIl-AX-Cpg">
-                                <rect key="frame" x="883" y="722" width="140" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="JxG-5f-lvV" kind="show" id="v88-Oz-Pbk"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="vdb-74-BPe"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="6sZ-N9-1IF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Evn-mV-oSA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4126.666666666667" y="6267.4074074074069"/>
-        </scene>
-        <!--Spill10-->
-        <scene sceneID="sIY-DA-B65">
-            <objects>
-                <viewController id="JxG-5f-lvV" customClass="Spill10" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3C0-is-yP5">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZPU-r3-KEO">
-                                <rect key="frame" x="20" y="528" width="369" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1Y-Pl-GAe">
-                                <rect key="frame" x="905" y="711" width="135" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ZRl-Ie-G3v" kind="show" id="9gx-4I-mmS"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sb-NO-eoc">
-                                <rect key="frame" x="85" y="149" width="975" height="328"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">CO2en må lagres dypt under havbunnen. Gjerne mer enn 1000 m under havet.  
-For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
- Det må lagres et sted hvor CO2en "fanges". Dette kalles en takbergart
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="2NM-zg-Xrv"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="JqM-om-g5R"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SCg-rL-w18" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4126.666666666667" y="6934.8148148148148"/>
-        </scene>
         <!--Spill11-->
         <scene sceneID="8Xz-dP-XRI">
             <objects>
                 <viewController id="ZRl-Ie-G3v" customClass="Spill11" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ac9-WF-oTZ">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvor ville du lagret CO2?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQz-Jt-ZeW">
@@ -1473,11 +1065,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="MTf-Tg-DqL" customClass="Fangst_1" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tWs-of-Z0t">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="NxA-BK-GMH">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HX0-cl-kC1">
                                 <rect key="frame" x="10" y="10" width="1101" height="922"/>
@@ -1653,11 +1245,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="puW-2q-yuB" customClass="Fangst_3" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fWS-TV-7Ot">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="GlR-O6-c4t">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bii-hZ-hwE">
                                 <rect key="frame" x="10" y="10" width="1101" height="922"/>
@@ -1714,11 +1306,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="VbT-L8-BJT" customClass="Fangst_4" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7bM-b5-fdA">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="BnX-NQ-ibz">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cYK-zN-nvb">
                                 <rect key="frame" x="10" y="10" width="1101" height="922"/>
@@ -1774,11 +1366,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="gFw-N7-o0d" customClass="Fangst_2" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a6O-ch-iFa">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gf7-oz-R0w">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="lCW-ab-56R">
                                 <rect key="frame" x="10" y="10" width="1101" height="922"/>
@@ -1863,11 +1455,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="PM3-wh-gh2" customClass="CCS_1" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eYy-Yr-PrS">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CCS.png" translatesAutoresizingMaskIntoConstraints="NO" id="lad-yF-WFm">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på 3 for å lære mer om lagring!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1Z-3S-TTA">
                                 <rect key="frame" x="213" y="102" width="671" height="48"/>
@@ -1924,11 +1516,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             <objects>
                 <viewController id="wv3-eH-86F" customClass="CCS_1" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eaf-4z-slK">
-                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CCS.png" translatesAutoresizingMaskIntoConstraints="NO" id="pOf-74-Dpw">
-                                <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trykk på 2 for å lære mer om transport!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTo-U5-x6e">
                                 <rect key="frame" x="213" y="102" width="714" height="48"/>
@@ -1980,6 +1572,664 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
             </objects>
             <point key="canvasLocation" x="2831" y="4441"/>
         </scene>
+        <!--Spill2-->
+        <scene sceneID="wyB-cJ-x7s">
+            <objects>
+                <viewController id="Rqg-TW-Bil" customClass="Spill2" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="chh-EA-nZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ebh-CL-qN3">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="syd-8r-tgN">
+                                <rect key="frame" x="10" y="10" width="1101" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.20000000298023224" translatesAutoresizingMaskIntoConstraints="NO" id="yGa-mZ-WxY">
+                                <rect key="frame" x="20" y="20" width="706" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4yz-VM-yFV">
+                                <rect key="frame" x="847" y="195" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-5P-Ka6">
+                                <rect key="frame" x="823" y="264" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="BJW-Nc-khg">
+                                <rect key="frame" x="637" y="57" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j4K-vi-2uB">
+                                <rect key="frame" x="593" y="126" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="uhf-db-W5P">
+                                <rect key="frame" x="637" y="195" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4cI-H4-g7w">
+                                <rect key="frame" x="613" y="264" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eOC-mq-orB">
+                                <rect key="frame" x="156" y="254.5" width="403" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="HWV-Ie-mMk">
+                                <rect key="frame" x="10" y="498" width="421" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="UpE-Z9-hqZ">
+                                <rect key="frame" x="823" y="126" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW9-P2-42n">
+                                <rect key="frame" x="231" y="274" width="315" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Se for deg en industri som  slipper ut CO2, som for  eksempel sementindustrien  eller stålindustrien. Disse  industriene trenger ikke å være forurensende lenger, fordi vi  kan fange CO2 utslippene. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rC6-0x-B2x">
+                                <rect key="frame" x="906" y="711" width="134" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nesteKnapp:" destination="Rqg-TW-Bil" eventType="touchUpInside" id="1Xi-MT-Lo2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karbonfangst er det første steget en må ta for å få lagret CO2en under bakken. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCw-HS-j6v">
+                                <rect key="frame" x="131" y="195" width="858" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ebh-CL-qN3" firstAttribute="leading" secondItem="chh-EA-nZJ" secondAttribute="leading" id="Rrm-NB-jJ6"/>
+                            <constraint firstItem="ebh-CL-qN3" firstAttribute="top" secondItem="chh-EA-nZJ" secondAttribute="top" id="fu2-ha-gbL"/>
+                            <constraint firstAttribute="trailing" secondItem="ebh-CL-qN3" secondAttribute="trailing" id="h11-Vj-YOe"/>
+                            <constraint firstAttribute="bottom" secondItem="ebh-CL-qN3" secondAttribute="bottom" id="pnA-Y0-rS6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Kr-zi-nwP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="arq-8e-1GM"/>
+                    <connections>
+                        <outlet property="tekstForsvinn" destination="aCw-HS-j6v" id="z7g-qY-eLF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e22-rB-sad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4313" y="847"/>
+        </scene>
+        <!--Spill3-->
+        <scene sceneID="y1A-In-ggm">
+            <objects>
+                <viewController id="zqv-Fc-3th" customClass="Spill3" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tvi-ea-JSq">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xtz-SG-9zd">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ooY-cz-MJp">
+                                <rect key="frame" x="10" y="10" width="1101" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="XSh-uv-oHL">
+                                <rect key="frame" x="618" y="254" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="bqJ-oC-19y">
+                                <rect key="frame" x="593" y="72" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="gWg-ax-Sd2">
+                                <rect key="frame" x="618" y="170" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mdB-4t-nTH">
+                                <rect key="frame" x="781" y="115" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="JuT-S6-Asr">
+                                <rect key="frame" x="841" y="184" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xAv-hK-JwF">
+                                <rect key="frame" x="809" y="274" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7LQ-5i-8wB">
+                                <rect key="frame" x="-33" y="465" width="421" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hC-bk-a0j">
+                                <rect key="frame" x="926" y="727" width="134" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rRf-g7-NcU" kind="show" id="S0L-uL-jgX"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.middle.bottom.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Fi8-GV-8K6">
+                                <rect key="frame" x="10" y="255" width="335" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Din oppgave vil nå være å installere rør til tanken for CO2 skal fanges. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tb-By-Dxc">
+                                <rect key="frame" x="83" y="316" width="189" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="e06-zH-gMu">
+                                <rect key="frame" x="57" y="101" width="492" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Xtz-SG-9zd" firstAttribute="leading" secondItem="Tvi-ea-JSq" secondAttribute="leading" id="39f-r2-ve4"/>
+                            <constraint firstAttribute="trailing" secondItem="Xtz-SG-9zd" secondAttribute="trailing" id="VAz-HD-Mpl"/>
+                            <constraint firstItem="Xtz-SG-9zd" firstAttribute="top" secondItem="Tvi-ea-JSq" secondAttribute="top" id="k9u-sE-dhU"/>
+                            <constraint firstAttribute="bottom" secondItem="Xtz-SG-9zd" secondAttribute="bottom" id="wjg-aZ-bBi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uQ3-ds-70Z"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5lN-lX-kR2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9f0-eF-v1e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3605.5555555555557" y="1504.4444444444443"/>
+        </scene>
+        <!--Spill4-->
+        <scene sceneID="7Db-bH-evn">
+            <objects>
+                <viewController id="rRf-g7-NcU" customClass="Spill4" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sYH-GX-Oef">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="pz1-ZK-oKI">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgG-3M-CZg">
+                                <rect key="frame" x="10" y="10" width="1101" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xVf-9s-ggY">
+                                <rect key="frame" x="618" y="254" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="uoA-Et-AsS">
+                                <rect key="frame" x="593" y="72" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mKK-rC-NT0">
+                                <rect key="frame" x="618" y="170" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Hl-dd-WfH">
+                                <rect key="frame" x="781" y="115" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="KP3-Dg-0xa">
+                                <rect key="frame" x="841" y="184" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="xIu-Jt-dmf">
+                                <rect key="frame" x="809" y="274" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sbt-2j-EnB">
+                                <rect key="frame" x="-33" y="465" width="421" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMF-F0-mtl">
+                                <rect key="frame" x="926" y="727" width="134" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dVN-E8-8yE" kind="show" id="81p-4A-iIf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.middle.bottom.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NmQ-W7-55P">
+                                <rect key="frame" x="10" y="255" width="335" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dra CO2en til trykktanken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxK-j0-eL7">
+                                <rect key="frame" x="83" y="316" width="189" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="t5d-2Y-Gns">
+                                <rect key="frame" x="83" y="115" width="432" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pz1-ZK-oKI" secondAttribute="bottom" id="0WA-7I-sp1"/>
+                            <constraint firstItem="pz1-ZK-oKI" firstAttribute="leading" secondItem="sYH-GX-Oef" secondAttribute="leading" id="0w8-QC-552"/>
+                            <constraint firstItem="pz1-ZK-oKI" firstAttribute="top" secondItem="sYH-GX-Oef" secondAttribute="top" id="LYe-Zw-nyc"/>
+                            <constraint firstAttribute="trailing" secondItem="pz1-ZK-oKI" secondAttribute="trailing" id="rhd-vl-wBx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KC7-p7-WXu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y1l-4j-DOV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MdA-9b-fHd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3605.5555555555557" y="2200.7407407407404"/>
+        </scene>
+        <!--Spill5-->
+        <scene sceneID="nQS-F4-jqB">
+            <objects>
+                <viewController id="dVN-E8-8yE" customClass="Spill5" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oCs-wb-Nay">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakgrunn-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="WfX-I1-dex">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jxz-jV-03a">
+                                <rect key="frame" x="10" y="10" width="1101" height="922"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nzm-zx-eGA">
+                                <rect key="frame" x="618" y="254" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0nx-AS-yOf">
+                                <rect key="frame" x="593" y="72" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="poJ-vO-su0">
+                                <rect key="frame" x="618" y="170" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jF7-nG-ekL">
+                                <rect key="frame" x="781" y="115" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y41-bl-KDJ">
+                                <rect key="frame" x="841" y="184" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="e2Y-nX-xVi">
+                                <rect key="frame" x="809" y="274" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boy1.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wgz-0a-GcC">
+                                <rect key="frame" x="-33" y="465" width="421" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3He-W4-YKK">
+                                <rect key="frame" x="926" y="727" width="134" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AEW-Fe-E52" kind="show" id="jBP-Wm-qfN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.middle.bottom.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Lc2-GJ-wNk">
+                                <rect key="frame" x="10" y="255" width="335" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flott Jobbet! Da er CO2en fanget og ikke sluppet ut i atmosfæren" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjL-7e-lhT">
+                                <rect key="frame" x="83" y="274" width="168" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ep2-DM-NSO">
+                                <rect key="frame" x="83" y="115" width="454" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WfX-I1-dex" secondAttribute="trailing" id="Pol-ET-Kye"/>
+                            <constraint firstItem="WfX-I1-dex" firstAttribute="leading" secondItem="oCs-wb-Nay" secondAttribute="leading" id="WJY-Mh-Pyq"/>
+                            <constraint firstAttribute="bottom" secondItem="WfX-I1-dex" secondAttribute="bottom" id="fUk-Bb-LgQ"/>
+                            <constraint firstItem="WfX-I1-dex" firstAttribute="top" secondItem="oCs-wb-Nay" secondAttribute="top" id="nqY-rv-nwX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Ie-5V-FLf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xrZ-cB-zuQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mtT-4R-9wq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3605.5555555555557" y="2883.7037037037035"/>
+        </scene>
+        <!--Spill6-->
+        <scene sceneID="grG-Vv-Tel">
+            <objects>
+                <viewController id="AEW-Fe-E52" customClass="Spill6" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hrf-eP-Lra">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background100-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nAu-4b-tnm">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz om fangst" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw7-Op-7nq">
+                                <rect key="frame" x="412" y="161" width="257" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eVm-hR-ltG">
+                                <rect key="frame" x="47" y="675" width="779" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKX-CD-hwi">
+                                <rect key="frame" x="807" y="675" width="273" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Sett i gang!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dGx-F4-sV6" kind="show" id="TBU-aC-PJP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="nAu-4b-tnm" secondAttribute="bottom" id="Bgw-71-Pvi"/>
+                            <constraint firstItem="nAu-4b-tnm" firstAttribute="top" secondItem="hrf-eP-Lra" secondAttribute="top" id="fYP-LR-cPz"/>
+                            <constraint firstAttribute="trailing" secondItem="nAu-4b-tnm" secondAttribute="trailing" id="lAI-YO-9ys"/>
+                            <constraint firstItem="nAu-4b-tnm" firstAttribute="leading" secondItem="hrf-eP-Lra" secondAttribute="leading" id="waq-em-Sdz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ozO-Bl-Qoz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ocu-oG-6NR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVx-h8-NoA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3603.8888888888887" y="3635.5555555555552"/>
+        </scene>
+        <!--Spill8-->
+        <scene sceneID="JX6-3R-FAA">
+            <objects>
+                <viewController id="1KV-95-XM0" customClass="Spill8" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TwC-w2-oNM">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxo-u6-jVG">
+                                <rect key="frame" x="807" y="675" width="273" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Sett i gang!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvilke sektorer er mest egnet for CCS? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N0-wr-9tW">
+                                <rect key="frame" x="208" y="94" width="665" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ewe-if-8xe">
+                                <rect key="frame" x="301" y="738" width="479" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UtslippEuropa.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="5zt-ku-gtp">
+                                <rect key="frame" x="181" y="229" width="719" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0g-DQ-xAa">
+                                <rect key="frame" x="353" y="230" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.48441916699999998" green="0.6521270871" blue="0.27495473619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button" image="arrow.down.right" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="gronnTrykk:" destination="1KV-95-XM0" eventType="touchUpInside" id="ze6-vZ-4Ge"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dY6-6W-ZSa">
+                                <rect key="frame" x="648" y="230" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2733578384" green="0.4741207361" blue="0.76286309959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button" image="arrow.down.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="blaTrykk:" destination="1KV-95-XM0" eventType="touchUpInside" id="UUg-Ai-bc4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5Z-4a-19f">
+                                <rect key="frame" x="689" y="518" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.89577674870000001" green="0.51057356600000003" blue="0.25077757239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button" image="arrow.up.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="oransjeTrykk:" destination="1KV-95-XM0" eventType="touchUpInside" id="9Fv-u6-FC4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="au1-iC-yPC">
+                                <rect key="frame" x="493" y="581" width="94" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.6404874921" green="0.65046620369999997" blue="0.65057975050000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button" image="arrow.up" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="graTrykk:" destination="1KV-95-XM0" eventType="touchUpInside" id="Cje-UM-X83"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrI-Q3-pdu">
+                                <rect key="frame" x="353" y="518" width="37" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.98232370619999998" green="0.74524360899999997" blue="0.1572311223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrow.up.right" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="40"/>
+                                </state>
+                                <connections>
+                                    <action selector="gulTrykk:" destination="1KV-95-XM0" eventType="touchUpInside" id="0pU-ii-HWy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1j-mh-9ef">
+                                <rect key="frame" x="807" y="675" width="273" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QjZ-Ku-PsE">
+                                <rect key="frame" x="297" y="232" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-rJ-tnb">
+                                <rect key="frame" x="689" y="225" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-mH-qR7">
+                                <rect key="frame" x="732" y="525" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Odo-1S-UN3">
+                                <rect key="frame" x="539" y="584" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qEl-pz-VQ7">
+                                <rect key="frame" x="297" y="515" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KcE-ig-rTY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jxo-u6-jVG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="1sr-HN-Eg1"/>
+                    <connections>
+                        <outlet property="blaSvar" destination="aDz-rJ-tnb" id="DBP-XX-dEN"/>
+                        <outlet property="graSvar" destination="Odo-1S-UN3" id="YGE-Y8-Yle"/>
+                        <outlet property="gronnSvar" destination="QjZ-Ku-PsE" id="lGE-fW-esQ"/>
+                        <outlet property="gulSvar" destination="qEl-pz-VQ7" id="qlP-wE-AXZ"/>
+                        <outlet property="neste" destination="O1j-mh-9ef" id="QT6-zk-PrH"/>
+                        <outlet property="oransjeSvar" destination="O9x-mH-qR7" id="Iz7-Of-7Kb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPU-TE-cg6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3604" y="5070"/>
+        </scene>
+        <!--Spill7-->
+        <scene sceneID="ycO-cK-PcJ">
+            <objects>
+                <viewController id="dGx-F4-sV6" customClass="Spill7" customModule="Equinor_CCS_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jnN-Vp-egg">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background100-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="VCh-fT-aD3">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FD7-4g-UDf">
+                                <rect key="frame" x="471" y="518" width="139" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="1 million biler"/>
+                                <connections>
+                                    <action selector="trykkB:" destination="dGx-F4-sV6" eventType="touchUpInside" id="xPX-ko-9lm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rS9-Ax-TbM">
+                                <rect key="frame" x="453" y="603" width="175" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="10 millioner biler"/>
+                                <connections>
+                                    <action selector="trykkC:" destination="dGx-F4-sV6" eventType="touchUpInside" id="aSd-k6-cnU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2x-sv-t7u">
+                                <rect key="frame" x="807" y="675" width="273" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1KV-95-XM0" kind="show" id="bqI-Wc-Dg5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="En gjennomsnittlig bil slipper ut 5 tonn CO2 årlig. Hvor mange biler tilsvarer utslippene man kan fange i prosjektet hvert år?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29o-YB-uUY">
+                                <rect key="frame" x="123" y="53" width="835" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1P8-27-cQR">
+                                <rect key="frame" x="467" y="440" width="147" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="100 000 biler"/>
+                                <connections>
+                                    <action selector="trykkA:" destination="dGx-F4-sV6" eventType="touchUpInside" id="YIf-Dx-dhP"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rDI-QL-RHm">
+                                <rect key="frame" x="123" y="220" width="764" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LoS-wV-ClS">
+                                <rect key="frame" x="383" y="442" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qYe-rZ-7a0">
+                                <rect key="frame" x="383" y="609" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FQh-dk-Jqa">
+                                <rect key="frame" x="383" y="524" width="48" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="VCh-fT-aD3" secondAttribute="bottom" id="ETz-gi-IVX"/>
+                            <constraint firstItem="VCh-fT-aD3" firstAttribute="leading" secondItem="jnN-Vp-egg" secondAttribute="leading" id="btf-1q-paC"/>
+                            <constraint firstItem="VCh-fT-aD3" firstAttribute="top" secondItem="jnN-Vp-egg" secondAttribute="top" id="d0o-tT-aEl"/>
+                            <constraint firstAttribute="trailing" secondItem="VCh-fT-aD3" secondAttribute="trailing" id="wZ0-fE-Gqi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8s1-Sl-ncC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uWr-1a-qK3"/>
+                    <connections>
+                        <outlet property="aA" destination="1P8-27-cQR" id="ros-N5-QBD"/>
+                        <outlet property="bB" destination="FD7-4g-UDf" id="SHb-u7-cPY"/>
+                        <outlet property="cC" destination="rS9-Ax-TbM" id="soW-eR-Xt2"/>
+                        <outlet property="feilA" destination="LoS-wV-ClS" id="RPT-EA-XO0"/>
+                        <outlet property="feilC" destination="qYe-rZ-7a0" id="8LK-W7-a0p"/>
+                        <outlet property="neste" destination="K2x-sv-t7u" id="bjU-WP-wio"/>
+                        <outlet property="riktigB" destination="FQh-dk-Jqa" id="Ef6-GH-qVV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85r-s2-JPF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3603.8888888888887" y="4320.7407407407409"/>
+        </scene>
     </scenes>
     <resources>
         <image name="CCS.png" width="1280.1600341796875" height="720"/>
@@ -1987,6 +2237,11 @@ For at CO2en skal være helt sikker lagret kan det ikke være noen sprekker.  
         <image name="Geologier2.png" width="960" height="540"/>
         <image name="Lysbilde5.PNG" width="960" height="540"/>
         <image name="UtslippEuropa.JPG" width="305" height="229"/>
+        <image name="arrow.down.left" catalog="system" width="128" height="111"/>
+        <image name="arrow.down.right" catalog="system" width="128" height="111"/>
+        <image name="arrow.up" catalog="system" width="120" height="128"/>
+        <image name="arrow.up.left" catalog="system" width="128" height="111"/>
+        <image name="arrow.up.right" catalog="system" width="128" height="111"/>
         <image name="background100-2.png" width="204.094482421875" height="153.07086181640625"/>
         <image name="bakgrunn-2.png" width="259.20001220703125" height="194.39999389648438"/>
         <image name="bildeskip-2.png" width="810" height="607.5"/>

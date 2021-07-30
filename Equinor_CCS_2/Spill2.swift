@@ -12,7 +12,7 @@ import UIKit
 class Spill2: UIViewController {
 
     override func viewDidLoad() {
-        showAlert()
+        //showAlert()
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
