@@ -10,15 +10,24 @@ import UIKit
 
 class InfoCCS: UIViewController {
 
+    @IBOutlet weak var bilde: UIImageView!
+    @IBOutlet weak var knapp: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        bilde.backgroundColor = .white
+        bilde.layer.cornerRadius = 25.0
+        bilde.layer.borderWidth = 1/UIScreen.main.nativeScale
+        bilde.layer.borderColor = UIColor.black.cgColor
+        
+        
+        
         
 
         // Do any additional setup after loading the view.
     }
-    
 
-    @IBOutlet weak var tekstboks: UILabel!
     /*
     // MARK: - Navigation
 

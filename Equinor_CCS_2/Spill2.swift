@@ -11,12 +11,17 @@ import UIKit
 
 class Spill2: UIViewController {
 
-    override func viewDidLoad() {
-        //showAlert()
-        super.viewDidLoad()
+   @IBOutlet weak var bilde: UIImageView!
 
-        // Do any additional setup after loading the view.
-    }
+       override func viewDidLoad() {
+           super.viewDidLoad()
+           bilde.backgroundColor = .white
+           bilde.layer.cornerRadius = 25.0
+           bilde.layer.borderWidth = 1/UIScreen.main.nativeScale
+           bilde.layer.borderColor = UIColor.black.cgColor
+
+           // Do any additional setup after loading the view.
+       }
     
     func showAlert(){
             let alert = UIAlertController(title: "", message:"Karbonfangst er det første steget en må ta for å få lagret CO2en under bakken. .", preferredStyle: .alert)

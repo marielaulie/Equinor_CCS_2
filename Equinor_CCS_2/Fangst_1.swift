@@ -10,13 +10,17 @@ import UIKit
 
 class Fangst_1: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var bilde: UIImageView!
 
-        // Do any additional setup after loading the view.
-    }
-    
-var x = 0
+       override func viewDidLoad() {
+           super.viewDidLoad()
+           bilde.backgroundColor = .white
+           bilde.layer.cornerRadius = 25.0
+           bilde.layer.borderWidth = 1/UIScreen.main.nativeScale
+           bilde.layer.borderColor = UIColor.black.cgColor
+
+           // Do any additional setup after loading the view.
+       }
     
     
     @IBAction func nesteKnapp(_ sender: UIButton) {

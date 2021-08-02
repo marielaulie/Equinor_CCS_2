@@ -1,16 +1,14 @@
 //
-//  Spill15.swift
+//  Spill17.swift
 //  Equinor_CCS_2
 //
-//  Created by Mariel Aulie Hinderaker on 28/07/2021.
+//  Created by Mariel Aulie Hinderaker on 02/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-import UIKit
-
-class Spill15: UIViewController {
+class Spill17: UIViewController {
 
     @IBAction func pushA(_ sender: Any) {
         svarA.tintColor = .black
@@ -21,31 +19,34 @@ class Spill15: UIViewController {
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! Deler du totalt sparte utslipp på antall biler, altså 5 millioner på 5 tonn, blir dette 1 million biler. "
+        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
     }
     @IBAction func pushB(_ sender: Any) {
         svarA.tintColor = .clear
-        svarB.tintColor = .black
+        svarB.tintColor = .systemGreen
         svarC.tintColor = .clear
-        boks.backgroundColor = .white
-        boks.layer.cornerRadius = 25.0
-        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
-        boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! Deler du totalt sparte utslipp på antall biler, altså 5 millioner på 5 tonn, blir dette 1 million biler. "
-    }
-    @IBAction func pushC(_ sender: Any) {
-        svarA.tintColor = .clear
-        svarB.tintColor = .clear
-        svarC.tintColor = .systemGreen
         neste.setTitleColor(.black, for: .normal)
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Korrekt, riktig svar! Deler du totalt sparte utslipp på antall biler, altså 5 millioner på 5 tonn, blir dette 1 million biler. "
+        tekst.text = "Bra jobbet, riktig svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
         co1.image = UIImage(named: "")
         co2.image = UIImage(named: "CO2.png")
+
     }
+    @IBAction func pushC(_ sender: Any) {
+        svarA.tintColor = .clear
+        svarB.tintColor = .clear
+        svarC.tintColor = .black
+        boks.backgroundColor = .white
+        boks.layer.cornerRadius = 25.0
+        boks.layer.borderWidth = 1/UIScreen.main.nativeScale
+        boks.layer.borderColor = UIColor.black.cgColor
+        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        
+    }
+    
     @IBOutlet weak var tekst: UILabel!
     @IBOutlet weak var boks: UIImageView!
     @IBOutlet weak var neste: UIButton!
