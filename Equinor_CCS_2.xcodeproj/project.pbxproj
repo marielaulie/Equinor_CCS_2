@@ -44,6 +44,10 @@
 		7330C8E926B3121400F54BB9 /* Transport_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8E826B3121400F54BB9 /* Transport_1.swift */; };
 		7330C8EB26B3121E00F54BB9 /* Lagring_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8EA26B3121E00F54BB9 /* Lagring_1.swift */; };
 		7330C8ED26B3276C00F54BB9 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8EC26B3276B00F54BB9 /* Test.swift */; };
+		734B86E826B9DA8800A41086 /* Spill19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B86E726B9DA8800A41086 /* Spill19.swift */; };
+		734B86EA26B9DA9900A41086 /* Spill20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B86E926B9DA9900A41086 /* Spill20.swift */; };
+		734B86EC26B9DAA400A41086 /* Spill21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B86EB26B9DAA400A41086 /* Spill21.swift */; };
+		734B86EE26B9DD2900A41086 /* Spill22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B86ED26B9DD2900A41086 /* Spill22.swift */; };
 		739CEF0726AF2317004F80F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739CEF0626AF2317004F80F8 /* AppDelegate.swift */; };
 		739CEF0926AF2317004F80F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739CEF0826AF2317004F80F8 /* SceneDelegate.swift */; };
 		739CEF0B26AF2317004F80F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739CEF0A26AF2317004F80F8 /* ViewController.swift */; };
@@ -117,6 +121,10 @@
 		7330C8E826B3121400F54BB9 /* Transport_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport_1.swift; sourceTree = "<group>"; };
 		7330C8EA26B3121E00F54BB9 /* Lagring_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lagring_1.swift; sourceTree = "<group>"; };
 		7330C8EC26B3276B00F54BB9 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test.swift; path = Equinor_CCS_2/Test.swift; sourceTree = SOURCE_ROOT; };
+		734B86E726B9DA8800A41086 /* Spill19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spill19.swift; sourceTree = "<group>"; };
+		734B86E926B9DA9900A41086 /* Spill20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spill20.swift; sourceTree = "<group>"; };
+		734B86EB26B9DAA400A41086 /* Spill21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spill21.swift; sourceTree = "<group>"; };
+		734B86ED26B9DD2900A41086 /* Spill22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spill22.swift; sourceTree = "<group>"; };
 		739CEF0326AF2317004F80F8 /* Equinor_CCS_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Equinor_CCS_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739CEF0626AF2317004F80F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739CEF0826AF2317004F80F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -242,6 +250,10 @@
 				730BC33126B12388007FD14A /* Spill16.swift */,
 				73E9AA4826B82159009479D1 /* Spill17.swift */,
 				73E9AA4A26B8216A009479D1 /* Spill18.swift */,
+				734B86E926B9DA9900A41086 /* Spill20.swift */,
+				734B86E726B9DA8800A41086 /* Spill19.swift */,
+				734B86EB26B9DAA400A41086 /* Spill21.swift */,
+				734B86ED26B9DD2900A41086 /* Spill22.swift */,
 				73AB342526B7EF3600C657F5 /* Ord1.swift */,
 				73AB342726B7EF5000C657F5 /* Ord2.swift */,
 				73AB342926B7EF5E00C657F5 /* Ord3.swift */,
@@ -367,6 +379,7 @@
 				730BC31A26B05B81007FD14A /* Spill9.swift in Sources */,
 				730BC30E26B04B70007FD14A /* Spill4.swift in Sources */,
 				732F03DC26B8063800C13CD8 /* Ord6.swift in Sources */,
+				734B86EC26B9DAA400A41086 /* Spill21.swift in Sources */,
 				739CEF0926AF2317004F80F8 /* SceneDelegate.swift in Sources */,
 				730BC31826B05AB0007FD14A /* Spill8.swift in Sources */,
 				7330C8DD26B311BE00F54BB9 /* CCS_2.swift in Sources */,
@@ -376,7 +389,9 @@
 				7330C8ED26B3276C00F54BB9 /* Test.swift in Sources */,
 				730BC33026B12375007FD14A /* Spill15.swift in Sources */,
 				73DE758226B03F0F003C27C2 /* Spill.swift in Sources */,
+				734B86EA26B9DA9900A41086 /* Spill20.swift in Sources */,
 				7330C8E526B311EF00F54BB9 /* Fangst_3.swift in Sources */,
+				734B86EE26B9DD2900A41086 /* Spill22.swift in Sources */,
 				732F03E026B80EAE00C13CD8 /* Spill11_1.swift in Sources */,
 				730BC31026B04B7C007FD14A /* Spill5.swift in Sources */,
 				730BC32E26B12359007FD14A /* Spill14.swift in Sources */,
@@ -386,6 +401,7 @@
 				732F03DE26B8091800C13CD8 /* Ord7.swift in Sources */,
 				7330C8EB26B3121E00F54BB9 /* Lagring_1.swift in Sources */,
 				7330C8E326B311E100F54BB9 /* Fangst_2.swift in Sources */,
+				734B86E826B9DA8800A41086 /* Spill19.swift in Sources */,
 				73DE756E26B026D1003C27C2 /* CCS.swift in Sources */,
 				732F03DA26B8062700C13CD8 /* Ord5.swift in Sources */,
 				730BC33226B12388007FD14A /* Spill16.swift in Sources */,

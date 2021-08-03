@@ -10,7 +10,7 @@ import UIKit
 
 class Ord5: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    let foods = ["100-200", "1000-2000", "10000-20000" ]
+    let foods = ["mindre", "ingen" ]
     
  
     @IBOutlet weak var svar: UILabel!
@@ -32,7 +32,7 @@ class Ord5: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         tekst.text = foods[row]
-        if tekst.text == "1000-2000"{
+        if tekst.text == "mindre"{
             neste.setTitleColor(.black, for: .normal)
             svar.text = "Riktig!"
             svar.textColor = .systemGreen

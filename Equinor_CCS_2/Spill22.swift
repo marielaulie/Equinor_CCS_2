@@ -1,36 +1,36 @@
 //
-//  Spill17.swift
+//  Spill22.swift
 //  Equinor_CCS_2
 //
-//  Created by Mariel Aulie Hinderaker on 02/08/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class Spill17: UIViewController {
+class Spill22: UIViewController {
 
     @IBAction func pushA(_ sender: Any) {
-        svarA.tintColor = .black
+        svarA.tintColor = .systemGreen
         svarB.tintColor = .clear
         svarC.tintColor = .clear
-        
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Riktig!"
+        neste.setTitleColor(.black, for: .normal)
     }
     @IBAction func pushB(_ sender: Any) {
         svarA.tintColor = .clear
-        svarB.tintColor = .systemGreen
+        svarB.tintColor = .black
         svarC.tintColor = .clear
-        neste.setTitleColor(.black, for: .normal)
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Bra jobbet, riktig svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Feil..."
+
 
     }
     @IBAction func pushC(_ sender: Any) {
@@ -41,7 +41,6 @@ class Spill17: UIViewController {
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
         
     }
     

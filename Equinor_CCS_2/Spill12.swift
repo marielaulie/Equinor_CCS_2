@@ -10,7 +10,7 @@ import UIKit
 
 class Spill12: UIViewController {
 
-    @IBOutlet weak var boks: UILabel!
+    @IBOutlet weak var boks: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         boks.backgroundColor = .white

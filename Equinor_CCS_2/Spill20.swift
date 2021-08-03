@@ -1,14 +1,14 @@
 //
-//  Spill17.swift
+//  Spill20.swift
 //  Equinor_CCS_2
 //
-//  Created by Mariel Aulie Hinderaker on 02/08/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class Spill17: UIViewController {
+class Spill20: UIViewController {
 
     @IBAction func pushA(_ sender: Any) {
         svarA.tintColor = .black
@@ -19,18 +19,19 @@ class Spill17: UIViewController {
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Desverre, galt svar! Northern Lights prosjektet er en del av et mer omfattende prosjekt kalt langskip. Langskip prosjektet omfatter hele verdikjeden som å fange, transportere og lagre CO2en."
     }
     @IBAction func pushB(_ sender: Any) {
         svarA.tintColor = .clear
-        svarB.tintColor = .systemGreen
+        svarB.tintColor = .black
         svarC.tintColor = .clear
         neste.setTitleColor(.black, for: .normal)
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Bra jobbet, riktig svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Desverre, galt svar! Northern Lights prosjektet er en del av et mer omfattende prosjekt kalt langskip. Langskip prosjektet omfatter hele verdikjeden som å fange, transportere og lagre CO2en."
+
 
     }
     @IBAction func pushC(_ sender: Any) {
@@ -41,7 +42,8 @@ class Spill17: UIViewController {
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+         neste.setTitleColor(.black, for: .normal)
+        tekst.text = "Bra jobbet, riktig svar! Northern Lights prosjektet er en del av et mer omfattende prosjekt kalt langskip. Langskip prosjektet omfatter hele verdikjeden som å fange, transportere og lagre CO2en. "
         
     }
     

@@ -1,14 +1,14 @@
 //
-//  Spill17.swift
+//  Spill19.swift
 //  Equinor_CCS_2
 //
-//  Created by Mariel Aulie Hinderaker on 02/08/2021.
+//  Created by Mariel Aulie Hinderaker on 03/08/2021.
 //  Copyright © 2021 Mariel Aulie Hinderaker. All rights reserved.
 //
 
 import UIKit
 
-class Spill17: UIViewController {
+class Spill19: UIViewController {
 
     @IBAction func pushA(_ sender: Any) {
         svarA.tintColor = .black
@@ -19,29 +19,31 @@ class Spill17: UIViewController {
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Desverre, galt svar! CO2en fraktes i flytende form da dette tar mye mindre plass."
     }
     @IBAction func pushB(_ sender: Any) {
         svarA.tintColor = .clear
-        svarB.tintColor = .systemGreen
+        svarB.tintColor = .black
         svarC.tintColor = .clear
-        neste.setTitleColor(.black, for: .normal)
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Bra jobbet, riktig svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        tekst.text = "Desverre, galt svar! CO2en fraktes i flytende form da dette tar mye mindre plass."
+        co1.image = UIImage(named: "")
+        co2.image = UIImage(named: "CO2.png")
 
     }
     @IBAction func pushC(_ sender: Any) {
         svarA.tintColor = .clear
         svarB.tintColor = .clear
-        svarC.tintColor = .black
+        svarC.tintColor = .systemGreen
         boks.backgroundColor = .white
         boks.layer.cornerRadius = 25.0
         boks.layer.borderWidth = 1/UIScreen.main.nativeScale
         boks.layer.borderColor = UIColor.black.cgColor
-        tekst.text = "Desverre, galt svar! CCS betyr “Carbon, Capture and storage”, på norsk: “karbonfangst og lagring”."
+        neste.setTitleColor(.black, for: .normal)
+        tekst.text = "Bra jobbet, riktig svar! CO2en fraktes i flytende form da dette tar mye mindre plass."
         
     }
     
