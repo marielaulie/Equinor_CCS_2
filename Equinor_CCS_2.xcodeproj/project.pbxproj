@@ -34,6 +34,8 @@
 		732F03DC26B8063800C13CD8 /* Ord6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F03DB26B8063800C13CD8 /* Ord6.swift */; };
 		732F03DE26B8091800C13CD8 /* Ord7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F03DD26B8091800C13CD8 /* Ord7.swift */; };
 		732F03E026B80EAE00C13CD8 /* Spill11_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F03DF26B80EAE00C13CD8 /* Spill11_1.swift */; };
+		732FEAB726D7A2D50097B0A8 /* CCS_intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732FEAB526D7A2D30097B0A8 /* CCS_intro.mp4 */; };
+		732FEAB826D7A2D50097B0A8 /* CCS_intervju.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 732FEAB626D7A2D40097B0A8 /* CCS_intervju.mp4 */; };
 		7330C8DB26B311AA00F54BB9 /* CCS_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8DA26B311AA00F54BB9 /* CCS_1.swift */; };
 		7330C8DD26B311BE00F54BB9 /* CCS_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8DC26B311BE00F54BB9 /* CCS_2.swift */; };
 		7330C8DF26B311C700F54BB9 /* CCS_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330C8DE26B311C700F54BB9 /* CCS_3.swift */; };
@@ -111,6 +113,8 @@
 		732F03DB26B8063800C13CD8 /* Ord6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ord6.swift; sourceTree = "<group>"; };
 		732F03DD26B8091800C13CD8 /* Ord7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ord7.swift; sourceTree = "<group>"; };
 		732F03DF26B80EAE00C13CD8 /* Spill11_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spill11_1.swift; sourceTree = "<group>"; };
+		732FEAB526D7A2D30097B0A8 /* CCS_intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = CCS_intro.mp4; path = ../../../Downloads/CCS_intro.mp4; sourceTree = "<group>"; };
+		732FEAB626D7A2D40097B0A8 /* CCS_intervju.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = CCS_intervju.mp4; path = ../../../Downloads/CCS_intervju.mp4; sourceTree = "<group>"; };
 		7330C8DA26B311AA00F54BB9 /* CCS_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCS_1.swift; sourceTree = "<group>"; };
 		7330C8DC26B311BE00F54BB9 /* CCS_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCS_2.swift; sourceTree = "<group>"; };
 		7330C8DE26B311C700F54BB9 /* CCS_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCS_3.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 		739CEEFA26AF2317004F80F8 = {
 			isa = PBXGroup;
 			children = (
+				732FEAB626D7A2D40097B0A8 /* CCS_intervju.mp4 */,
+				732FEAB526D7A2D30097B0A8 /* CCS_intro.mp4 */,
 				73E9AA4C26B8296F009479D1 /* DragAndDropNL.png */,
 				73AB341F26B73DFB00C657F5 /* box_v1.png */,
 				73AB342126B73DFB00C657F5 /* box_v2.png */,
@@ -329,6 +335,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732FEAB726D7A2D50097B0A8 /* CCS_intro.mp4 in Resources */,
+				732FEAB826D7A2D50097B0A8 /* CCS_intervju.mp4 in Resources */,
 				73E9AA4D26B8296F009479D1 /* DragAndDropNL.png in Resources */,
 				73AB342226B73DFC00C657F5 /* box_v1.png in Resources */,
 				73AB342326B73DFC00C657F5 /* storage.png in Resources */,

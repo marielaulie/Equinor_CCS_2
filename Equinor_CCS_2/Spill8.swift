@@ -17,7 +17,7 @@ class Spill8: UIViewController {
     }
     
     @IBAction func gronnTrykk(_ sender: Any) {
-        showAlert()
+        //showAlert()
         gronnSvar.tintColor = .red
         blaSvar.tintColor = .clear
         oransjeSvar.tintColor = .clear
@@ -27,7 +27,7 @@ class Spill8: UIViewController {
     }
     
     @IBAction func blaTrykk(_ sender: Any) {
-        showAlert()
+        //showAlert()
         gronnSvar.tintColor = .clear
         blaSvar.tintColor = .red
         oransjeSvar.tintColor = .clear
@@ -45,7 +45,7 @@ class Spill8: UIViewController {
         
      }
      @IBAction func graTrykk(_ sender: Any) {
-        showAlert()
+        //showAlert()
         gronnSvar.tintColor = .clear
         blaSvar.tintColor = .clear
         oransjeSvar.tintColor = .clear
@@ -53,7 +53,7 @@ class Spill8: UIViewController {
         gulSvar.tintColor = .clear
      }
      @IBAction func oransjeTrykk(_ sender: Any) {
-        showAlert()
+        //showAlert()
         gronnSvar.tintColor = .clear
         blaSvar.tintColor = .clear
         oransjeSvar.tintColor = .red

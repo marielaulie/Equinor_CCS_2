@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVKit
 
 class Jobber: UIViewController {
 
@@ -16,7 +17,23 @@ class Jobber: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func seFilm(_ sender: Any) {
+        if let path = Bundle.main.path(forResource: "CCS_intervju", ofType: "mp4"){
+        let video = AVPlayer(url: URL(fileURLWithPath: path))
+        let videoPlayer = AVPlayerViewController()
+        videoPlayer.player = video
+                 
+        present(videoPlayer, animated: true, completion:
+            {
+                video.play()
+                
+        })
+             }
+    }
+    
+    @IBAction func tilbake(_ sender: Any) {
+        performSegue(withIdentifier: "undwindToA", sender: self)
+    }
     /*
     // MARK: - Navigation
 

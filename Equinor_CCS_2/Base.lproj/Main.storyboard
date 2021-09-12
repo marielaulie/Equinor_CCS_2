@@ -144,8 +144,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0g-FM-o17">
+                                <rect key="frame" x="199" y="338" width="682" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">CCS står for karbonfangst- og lagring. Med karbon mener vi klimagassen CO2. CO2 slippes ut i atmosfæren når kull, olje eller gass brennes. I tillegg har vi CO2 utslipp fra industrielle prosesser som produksjon av stål og sement. 
+
+Det spennende med CCS er at det er en teknologi som kan fange, transportere og lagre CO2 trygt under jordskorpen. CO2 hindres derfor i å nå atmosfæren, og vi får lavere klimagassutslipp.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxU-4w-RgI">
-                                <rect key="frame" x="805" y="748" width="255" height="42"/>
+                                <rect key="frame" x="805" y="699" width="255" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Trykk her for å gå videre">
@@ -155,17 +166,6 @@
                                     <segue destination="YRM-5J-Wu7" kind="show" id="mTd-2i-nOb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0g-FM-o17">
-                                <rect key="frame" x="199" y="338" width="682" height="259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">CCS står for karbonfangst- og lagring. Med karbon mener vi klimagassen CO2. CO2 slippes ut i atmosfæren når kull, olje eller gass brennes. I tillegg har vi CO2 utslipp fra industrielle prosesser som produksjon av stål og sement. 
-
-Det spennende med CCS er at det er en teknologi som kan fange, transportere og lagre CO2 trygt under jordskorpen. CO2 hindres derfor i å nå atmosfæren, og vi får lavere klimagassutslipp.
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -204,17 +204,6 @@ Det spennende med CCS er at det er en teknologi som kan fange, transportere og l
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bta-Be-d9a">
-                                <rect key="frame" x="805" y="748" width="255" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Trykk her for å gå videre">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="tHh-iC-mf9" kind="show" id="dHS-zB-9YB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZY-xf-yuP">
                                 <rect key="frame" x="496" y="599" width="93" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -222,6 +211,9 @@ Det spennende med CCS er at det er en teknologi som kan fange, transportere og l
                                 <state key="normal" title="Se video">
                                     <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="seFilm:" destination="YRM-5J-Wu7" eventType="touchUpInside" id="HAa-yd-NuI"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CmV-5c-V46">
                                 <rect key="frame" x="132" y="374" width="815" height="193"/>
@@ -231,11 +223,22 @@ Det spennende med CCS er at det er en teknologi som kan fange, transportere og l
                                 <rect key="frame" x="149" y="404" width="783" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Northern Lights er et norsk karbonfangst- og lagringsprosjekt som bidrar til å redusere norske CO2 utslipp. Det er en del av et større prosjekt kalt Langskip og ledes av Equinor, sammen med de to andre selskapene Shell og Total. Ved hjelp av skip skal CO2 transporteres fra ulike fabrikker i Norge og til Øygarden utenfor Bergen. Der blir den injisert dypt ned i havbunnen for trygg lagring. </mutableString>
+                                <string key="text">Northern Lights er et norsk karbonfangst- og lagringsprosjekt som bidrar til å redusere norske CO2 utslipp. Det er en del av et større prosjekt kalt Langskip og ledes av Equinor, sammen med de to andre selskapene Shell og Total. Ved hjelp av skip skal CO2 transporteres fra ulike fabrikker i Norge og til Øygarden utenfor Bergen. Der blir den injisert dypt ned i havbunnen for trygg lagring. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bta-Be-d9a">
+                                <rect key="frame" x="805" y="692" width="255" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Trykk her for å gå videre">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tHh-iC-mf9" kind="show" id="dHS-zB-9YB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -285,40 +288,11 @@ Det spennende med CCS er at det er en teknologi som kan fange, transportere og l
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="evd-vJ-6Sp">
-                                <rect key="frame" x="20" y="231" width="438" height="534"/>
+                                <rect key="frame" x="92" y="231" width="896" height="396"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knL-gy-lbS">
-                                <rect key="frame" x="653" y="413" width="220" height="224"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="boy1.2.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxd-qn-8gj">
-                                <rect key="frame" x="445" y="498" width="241" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="boy2.1.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7X-EG-taw">
-                                <rect key="frame" x="844" y="549" width="227" height="195"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="girl1.1.png"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tor, maskiningeniør" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRh-nB-ClH">
-                                <rect key="frame" x="466" y="484" width="149" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mia, geolog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fnn-97-2ay">
-                                <rect key="frame" x="913" y="534" width="89" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVZ-Xz-l5k">
-                                <rect key="frame" x="807" y="706" width="273" height="135"/>
+                                <rect key="frame" x="787" y="655" width="273" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Trykk her for å gå videre">
@@ -328,28 +302,19 @@ Det spennende med CCS er at det er en teknologi som kan fange, transportere og l
                                     <segue destination="MmW-2e-EPg" kind="show" id="WGO-3K-UIZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Frank, kjemiingeniør" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxi-VJ-1Vy">
-                                <rect key="frame" x="686" y="413" width="154" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USh-Ro-hF4">
-                                <rect key="frame" x="54" y="272" width="383" height="472"/>
+                                <rect key="frame" x="130" y="252" width="820" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <mutableString key="text">Equinor trenger tre dyktige ingeniører til ulike oppgaver i Northen Lights prosjektet. Før de kan starte i den nye jobben må de ha en god forståelse av karbonfangst og lagring. De skal derfor sammen løse ulike oppgaver som vil gi dem en god innføring i karbonfangst og lagring. 
 
-Equinor skal plassere tre av sine ansatte på ulike oppgaver på "Northern Lights Prosjektet". Før de ansatte kan ta stilling til større oppgaver må de ha en oversikt over hele prosjektet. De får derfor utdelt en oppgave, som vil føre dem gjennom hele karbonfangstprosesse. Dette kaller vi verdikjeden til prosjektet. 
-Her er de tre ansatte som må fullføre testen:
-</mutableString>
+Equinor skal plassere tre av sine ansatte på ulike oppgaver på "Northern Lights Prosjektet". Før de ansatte kan ta stilling til større oppgaver må de ha en oversikt over hele prosjektet. De får derfor utdelt en oppgave, som vil føre dem gjennom hele karbonfangstprosesse. Dette kaller vi verdikjeden til prosjektet.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduksjon til historie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQS-Ap-f02">
-                                <rect key="frame" x="20" y="146" width="484" height="36"/>
+                                <rect key="frame" x="298" y="133" width="484" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -394,8 +359,16 @@ Her er de tre ansatte som må fullføre testen:
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8f-mH-99Q">
+                                <rect key="frame" x="182" y="174" width="298" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Flytende CO2 kan fraktes både i rør og med skip til mottaksterminalen. I Northern Lights prosjektet skal CO2 utslippene bli fraktet med skip. CO2 væsken vil da bli fylt i skipet hvor det så fraktes til terminalen utenfor Bergen for videre injisering i reservoaret. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hU-g9-yJc">
-                                <rect key="frame" x="910" y="696" width="134" height="73"/>
+                                <rect key="frame" x="910" y="668" width="134" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -406,14 +379,6 @@ Her er de tre ansatte som må fullføre testen:
                                     <segue destination="PM3-wh-gh2" kind="show" id="Wvl-20-gen"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8f-mH-99Q">
-                                <rect key="frame" x="182" y="174" width="298" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Flytende CO2 kan fraktes både i rør og med skip til mottaksterminalen. I Northern Lights prosjektet skal CO2 utslippene bli fraktet med skip. CO2 væsken vil da bli fylt i skipet hvor det så fraktes til terminalen utenfor Bergen for videre injisering i reservoaret. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -536,7 +501,7 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyi-2Q-Txg">
-                                <rect key="frame" x="926" y="727" width="134" height="63"/>
+                                <rect key="frame" x="926" y="684" width="134" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -656,7 +621,7 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHl-bs-4hQ">
-                                <rect key="frame" x="910" y="696" width="134" height="73"/>
+                                <rect key="frame" x="906" y="671" width="134" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -707,7 +672,7 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwz-H2-e3i">
-                                <rect key="frame" x="951" y="732" width="64" height="42"/>
+                                <rect key="frame" x="951" y="704" width="64" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Neste">
@@ -900,9 +865,10 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEp-gQ-Kny">
-                                <rect key="frame" x="920" y="722" width="140" height="68"/>
+                                <rect key="frame" x="920" y="678" width="140" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Neste">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1260,14 +1226,30 @@ Her er de tre ansatte som må fullføre testen:
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Se video"/>
+                                <connections>
+                                    <action selector="seFilm:" destination="PBd-Qo-Waa" eventType="touchUpInside" id="LDB-f8-xgp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WND-kr-Mhx">
+                                <rect key="frame" x="289" y="615" width="509" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Trykk her for å gjøre klar til neste gruppe"/>
+                                <connections>
+                                    <action selector="tilbake:" destination="PBd-Qo-Waa" eventType="touchUpInside" id="g4o-0S-ldq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ae6-Cj-5z8"/>
                     </view>
                     <navigationItem key="navigationItem" id="vIC-NT-PJW"/>
+                    <connections>
+                        <segue destination="QEs-TB-oe0" kind="unwind" identifier="undwindToA" unwindAction="unwind:" id="HkO-h2-i6n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Lz-kb-ngT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="QEs-TB-oe0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5041" y="6613"/>
         </scene>
@@ -1399,20 +1381,6 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkL-Ip-gvU">
-                                <rect key="frame" x="906" y="711" width="134" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="tintColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="nesteKnapp:" destination="MTf-Tg-DqL" eventType="touchUpInside" id="m5x-Zq-ivy"/>
-                                    <segue destination="gFw-N7-o0d" kind="show" identifier="tilFangst2" animates="NO" id="dbr-tP-0i8"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hkh-sX-oFY">
                                 <rect key="frame" x="109" y="264" width="894" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1426,6 +1394,20 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkL-Ip-gvU">
+                                <rect key="frame" x="909" y="655" width="134" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nesteKnapp:" destination="MTf-Tg-DqL" eventType="touchUpInside" id="m5x-Zq-ivy"/>
+                                    <segue destination="gFw-N7-o0d" kind="show" identifier="tilFangst2" animates="NO" id="dbr-tP-0i8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1548,19 +1530,6 @@ Her er de tre ansatte som må fullføre testen:
                                 <rect key="frame" x="-145" y="418" width="421" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlh-I8-sTo">
-                                <rect key="frame" x="926" y="711" width="134" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="tintColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="VbT-L8-BJT" kind="show" identifier="tilFangst4" animates="NO" id="uDX-XA-jKy"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage.png" translatesAutoresizingMaskIntoConstraints="NO" id="TsY-rB-vZs">
                                 <rect key="frame" x="832" y="465" width="322" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1585,6 +1554,19 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlh-I8-sTo">
+                                <rect key="frame" x="926" y="695" width="134" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="tintColor" red="0.62961524719999995" green="0.77263718839999995" blue="0.19407716389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VbT-L8-BJT" kind="show" identifier="tilFangst4" animates="NO" id="uDX-XA-jKy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1617,7 +1599,7 @@ Her er de tre ansatte som må fullføre testen:
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="storage.png" translatesAutoresizingMaskIntoConstraints="NO" id="zYA-z3-7Fb">
-                                <rect key="frame" x="832" y="485" width="322" height="256"/>
+                                <rect key="frame" x="822" y="439" width="322" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble.left.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lF9-wf-JaF">
@@ -1644,12 +1626,8 @@ Her er de tre ansatte som må fullføre testen:
                                 <rect key="frame" x="959" y="571" width="143" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="DcJ-KH-1dj">
-                                <rect key="frame" x="969" y="637" width="143" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoT-up-vh9">
-                                <rect key="frame" x="926" y="711" width="134" height="79"/>
+                                <rect key="frame" x="891" y="703" width="134" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -1662,7 +1640,11 @@ Her er de tre ansatte som må fullføre testen:
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pipe.png" translatesAutoresizingMaskIntoConstraints="NO" id="jsl-cR-324">
-                                <rect key="frame" x="783" y="574" width="115" height="79"/>
+                                <rect key="frame" x="764" y="527" width="115" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="DcJ-KH-1dj">
+                                <rect key="frame" x="887" y="527" width="143" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1733,8 +1715,16 @@ Her er de tre ansatte som må fullføre testen:
                                 <rect key="frame" x="823" y="126" width="62" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uU-ke-Xdr">
+                                <rect key="frame" x="235" y="280" width="245" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Se for deg en industri som slipper ut CO2, som for eksempel sement- eller stålindustrien. Disse industriene kan nå bli mer miljøvennlige, fordi vi kan fange CO2-utslippene!  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEV-vR-n0K">
-                                <rect key="frame" x="906" y="711" width="134" height="79"/>
+                                <rect key="frame" x="906" y="670" width="134" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -1746,14 +1736,6 @@ Her er de tre ansatte som må fullføre testen:
                                     <segue destination="puW-2q-yuB" kind="show" identifier="tilFangst3" animates="NO" id="JFN-uk-zz0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uU-ke-Xdr">
-                                <rect key="frame" x="235" y="280" width="245" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Se for deg en industri som slipper ut CO2, som for eksempel sement- eller stålindustrien. Disse industriene kan nå bli mer miljøvennlige, fordi vi kan fange CO2-utslippene!  </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -2086,8 +2068,13 @@ Her er de tre ansatte som må fullføre testen:
                                 <rect key="frame" x="814" y="573" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BNq-Bc-pZy">
+                                <rect key="frame" x="957" y="573" width="62" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ly7-rO-SMZ">
-                                <rect key="frame" x="957" y="723" width="101" height="67"/>
+                                <rect key="frame" x="938" y="693" width="101" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Neste">
@@ -2097,11 +2084,6 @@ Her er de tre ansatte som må fullføre testen:
                                     <segue destination="AEW-Fe-E52" kind="show" id="uvB-2I-CiD"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BNq-Bc-pZy">
-                                <rect key="frame" x="957" y="573" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -2171,7 +2153,7 @@ Her er de tre ansatte som må fullføre testen:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKX-CD-hwi">
-                                <rect key="frame" x="807" y="675" width="273" height="135"/>
+                                <rect key="frame" x="807" y="624" width="273" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Sett i gang!">
@@ -2504,9 +2486,9 @@ Her er de tre ansatte som må fullføre testen:
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJu-Im-tCy">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av __________, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av __________, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
 Etter at karbonet er fanget skal det fraktes med skip til kysten av _______.Her pumpes det videre i ______  ut i Nordsjøen. På _______ meters dyp lagres det trygt. Dette fører til _______ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger _______ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2686,18 +2668,6 @@ Etter at karbonet er fanget skal det fraktes det med skip til kysten ved ______.
                                     <action selector="trykkC:" destination="dGx-F4-sV6" eventType="touchUpInside" id="aSd-k6-cnU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2x-sv-t7u">
-                                <rect key="frame" x="807" y="675" width="273" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Neste">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="1KV-95-XM0" kind="show" id="ecF-5N-CEB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1P8-27-cQR">
                                 <rect key="frame" x="467" y="440" width="147" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2723,13 +2693,25 @@ Etter at karbonet er fanget skal det fraktes det med skip til kysten ved ______.
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29o-YB-uUY">
-                                <rect key="frame" x="96" y="50" width="888" height="169"/>
+                                <rect key="frame" x="96" y="104" width="888" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">En gjennomsnittlig bil slipper ut 5 tonn CO2 årlig. Hvor mange bilers utslipp tilsvarer utslippene Northern Lights skal lagre hvert år? (Totalt sikter Northern Lights på å lagre 5 millioner tonn CO2 årlig).</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2x-sv-t7u">
+                                <rect key="frame" x="807" y="607" width="273" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Neste">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1KV-95-XM0" kind="show" id="ecF-5N-CEB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -2850,9 +2832,9 @@ Etter at karbonet er fanget skal det fraktes det med skip til kysten ved ______.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hV-pn-ijc">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
 Etter at karbonet er fanget skal det fraktes med skip til kysten av ___________.Her pumpes det videre i ______  ut i Nordsjøen. På _______ meters dyp lagres det trygt. Dette fører til _______ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger _______ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2918,9 +2900,9 @@ Etter at karbonet er fanget skal det fraktes med skip til kysten av ___________.
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSZ-DO-UzC">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
 Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i _____________  ut i Nordsjøen. På _______ meters dyp lagres det trygt. Dette fører til _______ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger _______ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2986,8 +2968,8 @@ Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her p
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECH-8w-SPx">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
-Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På ________________ meters dyp lagres det trygt. Dette fører til _______ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger _______ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </mutableString>
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På ________________ meters dyp lagres det trygt. Dette fører til _______ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger _______ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3053,8 +3035,8 @@ Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her p
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33a-6Y-s1p">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
-Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På 1000-2000 meters dyp lagres det trygt. Dette fører til ____________ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger ___6___ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </mutableString>
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På 1000-2000 meters dyp lagres det trygt. Dette fører til ____________ CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger ___6___ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3120,8 +3102,8 @@ Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her p
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9P-Lm-DjE">
                                 <rect key="frame" x="116" y="198" width="802" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
-Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På 1000-2000 meters dyp lagres det trygt. Dette fører til mindre CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger __________ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </mutableString>
+                                <string key="text">Northern Lights er et samarbeidsprosjekt bestående av Equinor, Shell og Total. Prosjektet inngår som en del av det norske prosjektet Langskip, som skal gjøre Norge ledende innen karbonfangst og lagring. Northern Lights Prosjektet omfatter transport, mottak og lagring av CO2, mens selve karbonfangsten gjøres av storskalaprosjektet Langskip. Vi skal nå presentere verdikjeden:
+Etter at karbonet er fanget skal det fraktes med skip til kysten av Bergen.Her pumpes det videre i rør ut i Nordsjøen. På 1000-2000 meters dyp lagres det trygt. Dette fører til mindre CO2 I atmosfæren som er nødvendig for å nå Parisavtalen hvor målet er at temperaturøkningen ikke overstiger __________ grader. I fremtiden vil det komme tilsvarende prosjekter som Northern Lights slik at de globale CO2 utslippene reduseres.   </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3195,7 +3177,7 @@ Men her er noen viktige ting å huske på når du lagrer CO2. (Informasjonen er 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-x7-fPy">
-                                <rect key="frame" x="951" y="732" width="64" height="42"/>
+                                <rect key="frame" x="951" y="704" width="64" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Neste">
@@ -3235,8 +3217,23 @@ Men her er noen viktige ting å huske på når du lagrer CO2. (Informasjonen er 
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background100-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iTE-ry-V8y">
                                 <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X96-AP-EQF">
+                                <rect key="frame" x="151" y="304" width="788" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMD-SM-T7v">
+                                <rect key="frame" x="214" y="335" width="652" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">CO2 må lagres dypt under havbunnen. Gjerne mer enn 1000 meter under havoverflaten nede i grunnen.  
+For at CO2en skal være trygt lagret kan det ikke være sprekker der CO2 kan lekke ut igjen.  
+ Den må lagres et sted hvor CO2 "fanges". Dette kalles en takbergart.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klN-iO-gpa">
-                                <rect key="frame" x="951" y="732" width="64" height="42"/>
+                                <rect key="frame" x="951" y="688" width="64" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Neste">
@@ -3246,21 +3243,6 @@ Men her er noen viktige ting å huske på når du lagrer CO2. (Informasjonen er 
                                     <segue destination="ZRl-Ie-G3v" kind="show" id="ybY-d2-OsG"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X96-AP-EQF">
-                                <rect key="frame" x="151" y="304" width="788" height="262"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMD-SM-T7v">
-                                <rect key="frame" x="214" y="335" width="652" height="209"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">CO2 må lagres dypt under havbunnen. Gjerne mer enn 1000 meter under havoverflaten nede i grunnen.  
-For at CO2en skal være trygt lagret kan det ikke være sprekker der CO2 kan lekke ut igjen.  
- Den må lagres et sted hvor CO2 "fanges". Dette kalles en takbergart.
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
